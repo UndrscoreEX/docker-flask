@@ -1,4 +1,7 @@
-.special-text{ 
+.special-text a{ 
+    font-family: 'Nunito Sans', sans-serif;    
+}
+.special-text p{ 
     font-family: 'Nunito Sans', sans-serif;    
 }
 
@@ -277,6 +280,12 @@ footer div {
 
 /* medium and below */
 @media only screen and (max-width: 992px) {
+    .img-cont div{
+        text-align: center!important;
+    }
+
+
+
     .index-main{
         margin-top: -5rem;
     }
@@ -306,7 +315,7 @@ footer div {
         /* position:; */
     }
     .main-title{
-        font-size:90px;
+        font-size:80px;
 
 
     }
@@ -318,4 +327,47 @@ footer div {
     .side-pic div img {
         display: none;
     }   
+
+    .index-main div {
+        box-sizing:content-box ;
+        margin-top: 1rem;
+        width: 75%!important;
+
+        
+    }
+    .main-color div{
+        padding-right: 2rem;
+        padding-right: 2rem;
+    }
+    .special-text a {
+        text-align: center!important;
+    }
+    .special-text p {
+        text-align: center!important;
+    }
+
+    .img-cont {
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+    .img-cont img{
+        margin-right: auto!important;
+        margin-left: auto!important;
+        
+    }
+
+    .submain-title{
+        font-size: 3rem ;
+    }
+
+    .small-width {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .sm-ignore {
+        display: none;
+    }
+
 }
